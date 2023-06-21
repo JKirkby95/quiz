@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    text-align: center;
+}
+.quiz-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 75vh;
+    width: 75vw;
+    border: 1px solid black;
+  }
+  .image-container{
+    height: 75%;
+    width: 33%;
+    float: left;
+    border: 1px solid black;
+    position: relative;
+    top: 12.5%;
+    left: 5%;
+  }
+  .question-container{
+    float: right;
+    width: 50%;
+    height: 75%;
+    border: 1px solid black;
+    position: relative;
+    top: 12.5%;
+    right: 5%;
+    text-align: center;
+  }
